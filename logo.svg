@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3B281B"/><stop offset="1" stop-color="#110B07"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE3B4" stop-opacity="0.75"/><stop offset="1" stop-color="#F4C88E" stop-opacity="0"/></radialGradient>
+    <linearGradient id="br" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3D2A3"/><stop offset="1" stop-color="#AE7744"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4A3222"/><stop offset="1" stop-color="#7A5236"/></linearGradient>
+    <linearGradient id="op" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFF4DE"/><stop offset="1" stop-color="#F6BE7C"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD9A0" stop-opacity="0.75"/><stop offset="1" stop-color="#FFD9A0" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <ellipse cx="540" cy="520" rx="380" ry="440" fill="url(#glow)"/>
+  <path d="M354 842 L670 842 L960 1024 L64 1024 Z" fill="url(#beam)"/>
+  <path d="M354 842 V330 A158 158 0 0 1 670 330 V842 Z" fill="url(#op)"/>
+  <path d="M354 842 L354 330 C354 228 418 160 470 150 C524 142 566 212 566 300 L566 892 Z" fill="url(#leaf)"/>
+  <rect x="540" y="540" width="14" height="70" rx="7" fill="url(#br)"/>
+  <path d="M332 842 V330 A180 180 0 0 1 692 330 V842" fill="none" stroke="url(#br)" stroke-width="44" stroke-linejoin="round"/>
+  <rect x="292" y="836" width="440" height="24" rx="12" fill="url(#br)"/>
+</svg>
